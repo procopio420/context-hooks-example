@@ -1127,6 +1127,11 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@hookstate/core@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@hookstate/core/-/core-3.0.1.tgz#dc46ea71e3bf0ab5c2dc024029c9210ed12fbb84"
+  integrity sha512-buRie83l3FYPLCuaBE68puE3XS19r2O+jwC/kH2ikIW7ww8AavndR3MspzMMkNpq2zL8pZtIcpiWJBbn4Uq2Vw==
+
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
   resolved "https://registry.yarnpkg.com/@jest/console/-/console-24.9.0.tgz#79b1bc06fb74a8cfb01cbdedf945584b1b9707f0"
