@@ -1,7 +1,8 @@
 import React from 'react';
-import { useCounter } from '../hooks/counter';
+import { useState } from '@hookstate/core';
+import { globalCounterState } from '../hooks/counter';
 
 export default function IncreaseCounter() {
-  const { setCount } = useCounter();
-  return <button onClick={() => setCount((currentCount) => currentCount + 1)}>+</button>;
+  const counter = useState(globalCounterState);
+  return <button onClick={() => counter.set((currentCounter) => ({counter: currentCounter.counter + 1}))}>+</button>;
 }
